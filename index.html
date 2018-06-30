@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GIF Button Maker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed|Wendy+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+</head>
+
+<body background ="what-the-hex-dark.png">
+    
+    <div id="buttons-view"></div>
+
+    <form id="gif-form">
+        <div class="container">
+            <h1 class="gifsearch">GIF Search</h1>
+
+            <label for="gif-input">Add a Gif Button</label>
+            <input type="text" id="gif-input">
+            <br>
+            <button type="button" class="btn btn-outline-secondary" id="add-gif">Search</button>
+            <!-- <input class="button bg bg-light" id="add-gif" type="submit" value="Search"> -->
+        </div>
+    </form>
+
+    <!-- gifs will get dumped Dere -->
+    <div id="gif-view"></div>
+    <script src="app2.js"></script>
+</body>
+
+</html>
