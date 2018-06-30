@@ -28,7 +28,7 @@ function renderButtons() {
 
 function displayInfo() {
   var gif = $(this).attr("data-name");
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=C2p0qM8mh07O7KzT3rYj2IYMAI8Tutlb&limit=10";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=C2p0qM8mh07O7KzT3rYj2IYMAI8Tutlb&limit=10";
   $("#gif-view").empty();
   $.ajax({
     url: queryURL,
